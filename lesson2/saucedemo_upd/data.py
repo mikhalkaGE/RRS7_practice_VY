@@ -5,3 +5,7 @@ class AuthData:
     INVALID_LOGIN = 'user'
     INVALID_PASSWORD = 'user'
     AUTH_ERROR = 'Epic sadface: Username and password do not match any user in this service'
+
+class InventoryData:
+    item_id = '4'
+    item = 'backpack'
