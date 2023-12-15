@@ -20,6 +20,8 @@ def login_page(driver):
 
 class TestSidebarMenu:
 
+    #TODO remove time.sleep()
+
     def test_logout(self, base_page, login_page, inventory_page):
 
         base_page.open_browser(AuthData.BASE_URL)
